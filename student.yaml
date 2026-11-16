@@ -1,0 +1,46 @@
+
+- first_name: "praveen kola"
+  lastName: "kola"
+  dob: "1990-01-01"
+
+  # Addresses - List
+  addresses:
+    - type: permanent
+      doorNo: 123
+      streetName: Gandhi nagar
+      city: Hyderabad
+
+    - type: temporary
+      doorNo: 456
+      streetName: Banjara hills
+      city: Hyderabad
+
+  # Skills - Dictionary
+  skills:
+    OS: Linux
+    IDE: VS Code
+    CM: Ansible
+
+
+- first_name: "praveen kola"
+  lastName: "kola"
+  dob: "1990-01-01"
+
+  # Addresses - List
+  addresses:
+    - type: permanent
+      doorNo: 123
+      streetName: Gandhi nagar
+      city: Hyderabad
+
+    - type: temporary
+      doorNo: 456
+      streetName: Banjara hills
+      city: Hyderabad
+
+  # Skills - Dictionary
+  skills:
+    OS: Linux
+    IDE: VS Code
+    CM: Ansible
+

@@ -1,0 +1,24 @@
+{
+    "firstName": "praveen kola",
+    "lastname": "kola",
+    "dob": "01-01-2001",
+    "addresses" :[
+        {
+            "type": "permenant",
+            "doorNo": "-434",
+            "streetName": "pragati nager",
+            "city": "Hyderabad"
+        },
+        {
+            "type": "temporary",
+            "doorNo": "-434",
+            "streetName": "pragati nager",
+            "city": "Hyderabad"
+        }
+    ],
+    "skills" : {
+        "OS" : "Linux",
+        "IDE": "Vscode",
+        "CM": "ansible"
+    }
+}

@@ -1,0 +1,17 @@
+<Students>
+    <firstname>praveen kumar</firstname>
+    <lastname>kola</lastname>
+    <dob>01-01-2--1</dob>
+    <addresses>
+        <address type="temporary">
+            <doornumber>17-7-14/2</doornumber>
+            <streetname>street</streetname>
+            <city>hyderabad</city>
+        </address>
+        <address type="permenant">
+            <doornumber>17-7-14/2</doornumber>
+            <streetname>street</streetname>
+            <city>hyderabad</city>
+        </address>
+    </addresses>
+</Students>
