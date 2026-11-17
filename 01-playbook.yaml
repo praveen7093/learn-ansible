@@ -1,6 +1,6 @@
 
 - name: ping demo
-  hosts: localhost # Target Ansible server itself
+  hosts: local # Target Ansible server itself
   connection: local
 
   tasks:
