@@ -1,7 +1,8 @@
--name: ping demo
-  hosts: localhost # target ansible server isteld
+
+- name: ping demo
+  hosts: localhost # Target Ansible server itself
   connection: local
-  tasks: 
-  -name: ping localhost
-    ping:
-  
+
+  tasks:
+    - name: ping localhost
+      ping:
