@@ -2,7 +2,6 @@
 - name: ping demo
   hosts: local # Target Ansible server itself
   connection: local
-
   tasks:
     - name: ping localhost
       ping:
