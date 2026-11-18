@@ -4,6 +4,6 @@
   vars_files:
     - course.yaml
   tasks:
-    -name : print course info
+    - name : print course info
       debug:
         msg: "Hi my course is {{ course }} from instructor {{ trainer }} for {{ duration }}"
