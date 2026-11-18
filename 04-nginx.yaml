@@ -1,5 +1,6 @@
 - name : install and start  ngnix
   hosts: frontend
+  become: yes #providing sudo acccess
   tasks: 
     - name : install nginx
       package: 
