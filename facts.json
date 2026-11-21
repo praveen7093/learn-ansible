@@ -574,7 +574,7 @@
             "AWS_CA_BUNDLE": "/etc/pki/tls/certs/ca-bundle.crt",
             "AWS_DEFAULT_REGION": "us-east-1",
             "AWS_PAGER": "",
-            "BASH_FUNC_which%%": "() {  ( alias;\n eval ${which_declare} ) | /us                                                                                                        r/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@\                                                                                                        n}",
+            "BASH_FUNC_which%%": "() {  ( alias;\n eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@\n}",
             "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1001/bus",
             "DEBUGINFOD_IMA_CERT_PATH": "/etc/keys/ima:",
             "HISTCONTROL": "ignoredups",
