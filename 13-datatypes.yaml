@@ -14,7 +14,7 @@
       trainer: siva 
       months: 4
       exact_duration_in_months: 4.5
-    tasks :
+  tasks :
       - name : print info and type
         debug:
           msg : |
