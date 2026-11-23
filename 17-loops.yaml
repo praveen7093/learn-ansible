@@ -6,7 +6,6 @@
     packages:
       - nginx
       - mysql
-      - rabbitmq
       - git
       - net-tools
       - htop
