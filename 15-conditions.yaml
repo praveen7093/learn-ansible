@@ -1,6 +1,6 @@
 - name: print OS is redhat or not
   hosts: local
-  conection: local
+  connection: local
   tasks:
   - name: install ngninx in redhat
     dnf:
