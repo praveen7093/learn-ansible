@@ -7,7 +7,7 @@
       - praveen
       - kumar 
       - kola
-    topics: ansible
+    topics: ANSIBLE
   tasks:
     - name : print the name
       debug:
