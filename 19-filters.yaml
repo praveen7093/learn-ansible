@@ -9,4 +9,4 @@
         msg : "Hi, {{ person_name | default('Ramesh') }}"
     - name : convert string to list
       debug:
-        msg : " Topics are {{ topics | split(',')}}"
+        msg : " Topics are {{ topics | split(',') | trim }}"
