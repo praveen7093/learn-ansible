@@ -3,6 +3,10 @@
   connection: local
   vars:
     topics: Linux, Shell, Ansible , Terraform
+    names:
+      - praveen
+      - kumar 
+      - kola
   tasks:
     - name : print the name
       debug:
@@ -10,3 +14,6 @@
     - name : convert string to list
       debug:
         msg : " Topics are {{ topics | split(',') | trim }}"
+    - name : convert list to string
+      debug:
+        msg : " full name : {{ names | join(' ') }}"
