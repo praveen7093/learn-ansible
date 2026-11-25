@@ -1,5 +1,5 @@
 - name : filters
-  host: local
+  hosts: local
   connection: local
   tasks:
     - name : print the name
