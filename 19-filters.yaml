@@ -1,0 +1,7 @@
+- name : filters
+  host: local
+  connection: local
+  tasks:
+    - name : print the name
+      debug:
+        msg : "Hi, {{ person_name }}"
