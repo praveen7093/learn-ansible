@@ -7,6 +7,7 @@
       - praveen
       - kumar 
       - kola
+    topics: ansible
   tasks:
     - name : print the name
       debug:
@@ -17,3 +18,6 @@
     - name : convert list to string
       debug:
         msg : " full name : {{ names | join(' ') }}"
+    - name : covert to lower case
+      debug :
+        msg : " topics {{ topics | lower }}"
