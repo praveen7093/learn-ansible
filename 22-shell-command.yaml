@@ -13,4 +13,4 @@
       register: files_output
     - name : print the files
       debug:
-        msg : {{files_output}}
+        msg : " {{files_output }} "
