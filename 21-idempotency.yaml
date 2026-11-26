@@ -4,5 +4,6 @@
   become: yes
   tasks:
     - name : create user
-      user : roboshop #user add roboshop
+      user : 
+        name: roboshop #user add roboshop
 
