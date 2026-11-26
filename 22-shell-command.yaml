@@ -5,6 +5,6 @@
     - name : test the command module
       shell : cat /etc/passwd | grep ec2-user
       register: ec2_user_output
-    - name : ptint the output
+    - name : print the output
       debug:
-        msg: "{{ ec2-user_output }}"
+        msg: "{{ ec2_user_output }}"
